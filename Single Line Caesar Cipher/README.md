@@ -15,5 +15,5 @@ output:     vguv
 input:      python caesar.py 10 hello world                    
 output:     rovvy gybvn
 
-input:      python caesar.py -3 test caesar cipher                 
+input:      python caesar.py -3 Test Caesar Cipher                 
 ouptut:     qbpq zxbpxo zfmebo
