@@ -5,9 +5,7 @@ This is a Caesar Cipher I wrote in Python using just one line of code.
 
 usage: python caesar.py number_to_shift text to shift
 
-Can shift either direction, but any number greater than 25 or less than -25 will not change the input.
-
-Any whitespace and punctuation is left unchanged.
+It can shift either direction, but any number greater than 25 or less than -25 will not change the input. Any whitespace and punctuation is left unchanged. Output is in lowercase.
 
 **Examples**
 
