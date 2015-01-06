@@ -1,7 +1,7 @@
 Single Line Caesar Cipher
 ===
 
-This is a Caesar Cipher I wrote in Python using just one line of code.
+This is a Caesar Cipher I wrote in Python using just one line of code. It uses the string module's lowercase constant to import the alphabet based on locality.
 
 usage: python caesar.py number_to_shift text to shift
 
