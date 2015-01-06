@@ -17,3 +17,6 @@ output:     rovvy gybvn
 
 input:      python caesar.py -3 Test Caesar Cipher                 
 ouptut:     qbpq zxbpxo zfmebo
+
+
+Note: Some locales have lowercase and uppercase alphabets of different length. For accuracy, only enter lowercase text.
