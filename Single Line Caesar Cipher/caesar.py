@@ -1,0 +1,1 @@
+print __import__('string', 'lower').lower(" ".join(__import__('sys', 'argv').argv[2:])).translate(__import__('string', 'maketrans').maketrans("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz"[int(__import__('sys', 'argv').argv[1]):]+"abcdefghijklmnopqrstuvwxyz"[:int(__import__('sys', 'argv').argv[1])]))
