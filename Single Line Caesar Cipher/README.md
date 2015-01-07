@@ -1,11 +1,11 @@
 Single Line Caesar Cipher
 ===
 
-This is a Caesar Cipher I wrote in Python using just one line of code. It uses the string module's lowercase constant to import the alphabet based on locality.
+This is a Caesar Cipher I wrote in Python using just one line of code. It uses the string module's ascii_lowercase constant to build its alphabet.
 
 usage: python caesar.py number_to_shift text to shift
 
-It can shift either direction. Any number greater than the length or less than the negative length of the alphabet will wrap around, e.g., using the en_US locale, 27 will become 1. Any whitespace and punctuation is left unchanged. Output is in lowercase.
+It can shift either direction. Any number greater than the length or less than the negative length of the alphabet will wrap around, e.g., 27 will become 1. Any whitespace and punctuation is left unchanged. Output is in lowercase.
 
 **Examples**
 
@@ -18,5 +18,5 @@ output:     rovvy gybvn
 input:      python caesar.py -3 Test Caesar Cipher                 
 ouptut:     qbpq zxbpxo zfmebo
 
-
-Note: Some locales have lowercase and uppercase alphabets of different length. For accuracy, only enter lowercase text.
+**Requirements**
+Python 3
